@@ -1,0 +1,16 @@
+{
+    "name": "chatwork-attendance-contact",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "chatwork-attendance-contact",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://kcw.kddi.ne.jp/*"
+            ],
+            "js": [
+                "main.js"
+            ]
+        }
+    ]
+}

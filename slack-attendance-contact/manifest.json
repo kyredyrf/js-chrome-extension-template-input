@@ -1,0 +1,16 @@
+{
+    "name": "slack-attendance-contact",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "slack-attendance-contact",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://app.slack.com/*"
+            ],
+            "js": [
+                "main.js"
+            ]
+        }
+    ]
+}
